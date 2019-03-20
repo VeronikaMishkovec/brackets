@@ -40,8 +40,8 @@
          }
      }
      if (stack.length === 0) {
-         return document.write('true');
-     } else { return document.write('false'); }
+         return true;
+     } else { return false; }
 
  }
  const config1 = [
